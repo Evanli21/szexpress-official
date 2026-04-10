@@ -11,7 +11,6 @@ import { useTranslations } from 'next-intl'
 export default function Home() {
   const t = useTranslations('Index')
 
-  // Version: 1.0.1 - Multilingual Final
   return (
     <main className="flex min-h-screen flex-col bg-background text-white selection:bg-accent selection:text-black">
       {/* Header */}
@@ -36,7 +35,7 @@ export default function Home() {
             
             <Search className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
             <div className="w-8 h-8 flex items-center justify-center glass rounded-md hover:bg-surface cursor-pointer">
-              <Menu className="w-5 h-5" />
+              <Menu className="w-5 h-5 text-white" />
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ export default function LanguageSwitcher() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-1.5 glass rounded-md hover:bg-surface transition-all text-sm font-bold"
+        className="flex items-center gap-2 px-3 py-1.5 glass rounded-md hover:bg-surface transition-all text-sm font-bold text-white"
       >
         <Globe className="w-4 h-4 text-accent" />
         <span>{localeLabels[locale] || locale.toUpperCase()}</span>

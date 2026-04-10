@@ -1,13 +1,10 @@
 import createMiddleware from 'next-intl/middleware';
-import { locales } from './navigation';
+import { locales, localePrefix } from './navigation';
 
 export default createMiddleware({
-  // A list of all locales that are supported
   locales,
-
-  // Used when no locale matches
-  defaultLocale: 'zh',
-  localePrefix: 'as-needed'
+  localePrefix,
+  defaultLocale: 'zh'
 });
 
 export const config = {

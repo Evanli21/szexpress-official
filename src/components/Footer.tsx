@@ -2,8 +2,11 @@
 
 import { motion } from 'framer-motion'
 import { MessageCircle, Send, Phone, Mail } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function Footer() {
+  const t = useTranslations('Index.footer')
+
   return (
     <footer className="py-20 border-t border-border bg-background">
       <div className="container mx-auto px-4">
@@ -11,8 +14,7 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <h3 className="text-3xl font-bold mb-4">szexpress.org</h3>
             <p className="text-gray-400 max-w-sm mb-8">
-              Reliable, efficient, and transparent cross-border solutions for businesses worldwide.
-              Connect with our logistics experts today.
+              {t('description')}
             </p>
             <div className="flex gap-4">
               <a href="#" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
@@ -27,15 +29,15 @@ export default function Footer() {
           </div>
           
           <div className="flex flex-col gap-6">
-            <h4 className="text-xl font-semibold mb-2">Connect with Us</h4>
+            <h4 className="text-xl font-semibold mb-2">{t('connect')}</h4>
             <div className="flex flex-wrap gap-4">
               <button className="flex items-center gap-3 bg-[#07C160] hover:bg-opacity-80 text-white px-6 py-3 rounded-full font-bold transition-all transform hover:scale-105">
                 <MessageCircle className="w-5 h-5" />
-                <span>WeChat</span>
+                <span>{t('wechat')}</span>
               </button>
               <button className="flex items-center gap-3 bg-[#0088CC] hover:bg-opacity-80 text-white px-6 py-3 rounded-full font-bold transition-all transform hover:scale-105">
                 <Send className="w-5 h-5" />
-                <span>Telegram</span>
+                <span>{t('telegram')}</span>
               </button>
             </div>
           </div>
@@ -44,9 +46,9 @@ export default function Footer() {
         <div className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-4">
           <p>© 2026 szexpress.org. All Rights Reserved.</p>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Service</a>
-            <a href="#" className="hover:text-white">Track Order</a>
+            <a href="#" className="hover:text-white">{t('privacy')}</a>
+            <a href="#" className="hover:text-white">{t('terms')}</a>
+            <a href="#" className="hover:text-white">{t('track')}</a>
           </div>
         </div>
       </div>
