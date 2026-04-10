@@ -23,6 +23,20 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L4N93BL5R"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3L4N93BL5R');
+            `,
+          }}
+        />
+      </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <div className="fixed inset-0 overflow-hidden pointer-events-none">
