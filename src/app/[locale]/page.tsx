@@ -11,6 +11,7 @@ import { useTranslations } from 'next-intl'
 export default function Home() {
   const t = useTranslations('Index')
 
+  // Version: 1.0.1 - Multilingual Final
   return (
     <main className="flex min-h-screen flex-col bg-background text-white selection:bg-accent selection:text-black">
       {/* Header */}

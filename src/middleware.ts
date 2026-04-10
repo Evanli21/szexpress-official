@@ -1,13 +1,16 @@
 import createMiddleware from 'next-intl/middleware';
-import { locales, localePrefix } from './navigation';
+import { locales } from './navigation';
 
 export default createMiddleware({
+  // A list of all locales that are supported
   locales,
-  localePrefix,
-  defaultLocale: 'zh'
+
+  // Used when no locale matches
+  defaultLocale: 'zh',
+  localePrefix: 'as-needed'
 });
 
 export const config = {
-  // Skip all internal paths (_next, api, assets) and dot files
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+  // Match only internationalized pathnames
+  matcher: ['/', '/(zh|en|vi|ko|ru)/:path*']
 };
