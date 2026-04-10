@@ -21,13 +21,9 @@ export default function Footer() {
               {t('description')}
             </p>
             <div className="flex gap-4">
-              <a href="mailto:support@szexpress.org" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
+              <a href="mailto:Business@szexpress.org" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
                 <Mail className="w-5 h-5" />
-                <span>support@szexpress.org</span>
-              </a>
-              <a href="tel:+861234567890" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
-                <Phone className="w-5 h-5" />
-                <span>+86 123 456 7890</span>
+                <span>Business@szexpress.org</span>
               </a>
             </div>
           </div>
