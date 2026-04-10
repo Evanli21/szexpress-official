@@ -1,0 +1,55 @@
+{
+  "Index": {
+    "title": "SZ EXPRESS",
+    "nav": {
+      "home": "首页",
+      "services": "服务",
+      "rates": "运费",
+      "tracking": "追踪",
+      "contact": "联系"
+    },
+    "hero": {
+      "badge": "全球物流专家",
+      "title": "szexpress.org",
+      "subtitle": "全球专线",
+      "description": "为全球企业提供可靠、高效、透明的跨境解决方案。空运和海运直达门口。",
+      "quote": "立即询价",
+      "track": "追踪查询"
+    },
+    "process": {
+      "title": "物流流程",
+      "subtitle": "我们的 5 步端到端物流周期，提供无缝体验。",
+      "steps": {
+        "collection": {
+          "title": "货物集货",
+          "desc": "全国高效揽收和集货。"
+        },
+        "clearance": {
+          "title": "报关安检",
+          "desc": "专业处理出口程序和文件。"
+        },
+        "transport": {
+          "title": "干线运输",
+          "desc": "定期的空运和海运航线，保证交期可靠。"
+        },
+        "distribution": {
+          "title": "到站分拨",
+          "desc": "在海外枢纽快速分拣和处理。"
+        },
+        "delivery": {
+          "title": "末端配送",
+          "desc": "提供实时追踪的上门配送。"
+        }
+      }
+    },
+    "footer": {
+      "description": "为全球企业提供可靠、高效、透明的跨境解决方案。立即联系我们的物流专家。",
+      "connect": "联系我们",
+      "wechat": "微信",
+      "telegram": "电报",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "track": "订单追踪"
+    }
+  }
+}

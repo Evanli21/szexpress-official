@@ -1,0 +1,55 @@
+{
+  "Index": {
+    "title": "SZ EXPRESS",
+    "nav": {
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "rates": "Cước phí",
+      "tracking": "Theo dõi",
+      "contact": "Liên hệ"
+    },
+    "hero": {
+      "badge": "Chuyên gia logistics toàn cầu",
+      "title": "szexpress.org",
+      "subtitle": "Tuyến vận tải chuyên biệt",
+      "description": "Giải pháp xuyên biên giới đáng tin cậy, hiệu quả và minh bạch cho doanh nghiệp trên toàn thế giới. Vận chuyển hàng không và đường biển trực tiếp đến tận nơi.",
+      "quote": "Nhận báo giá ngay",
+      "track": "Theo dõi đơn hàng"
+    },
+    "process": {
+      "title": "Quy trình Logistics",
+      "subtitle": "Chu kỳ logistics 5 bước toàn diện của chúng tôi mang lại trải nghiệm liền mạch.",
+      "steps": {
+        "collection": {
+          "title": "Gom hàng",
+          "desc": "Thu gom và gom hàng hiệu quả trên toàn quốc."
+        },
+        "clearance": {
+          "title": "Thông quan",
+          "desc": "Xử lý chuyên nghiệp các quy trình xuất khẩu và chứng từ."
+        },
+        "transport": {
+          "title": "Vận chuyển chính",
+          "desc": "Các tuyến hàng không và đường biển theo lịch trình để đảm bảo giao hàng đáng tin cậy."
+        },
+        "distribution": {
+          "title": "Phân phối",
+          "desc": "Phân loại và xử lý nhanh chóng tại các trung tâm ở nước ngoài."
+        },
+        "delivery": {
+          "title": "Giao hàng cuối",
+          "desc": "Giao hàng tận nơi với tính năng theo dõi thời gian thực."
+        }
+      }
+    },
+    "footer": {
+      "description": "Giải pháp xuyên biên giới đáng tin cậy, hiệu quả và minh bạch cho doanh nghiệp trên toàn thế giới. Kết nối với chuyên gia của chúng tôi ngay hôm nay.",
+      "connect": "Kết nối với chúng tôi",
+      "wechat": "WeChat",
+      "telegram": "Telegram",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ",
+      "track": "Theo dõi đơn hàng"
+    }
+  }
+}

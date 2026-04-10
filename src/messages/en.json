@@ -1,0 +1,55 @@
+{
+  "Index": {
+    "title": "SZ EXPRESS",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "rates": "Rates",
+      "tracking": "Tracking",
+      "contact": "Contact"
+    },
+    "hero": {
+      "badge": "Global Logistics Expert",
+      "title": "szexpress.org",
+      "subtitle": "Global Special Line",
+      "description": "Reliable, efficient, and transparent cross-border solutions for businesses worldwide. Air and sea freight directly to your doorstep.",
+      "quote": "Get Quote Now",
+      "track": "Track Shipment"
+    },
+    "process": {
+      "title": "Logistics Process",
+      "subtitle": "Our 5-step end-to-end logistics cycle for a seamless experience.",
+      "steps": {
+        "collection": {
+          "title": "Cargo Collection",
+          "desc": "Nationwide efficient pick-up and consolidation."
+        },
+        "clearance": {
+          "title": "Customs Clearance",
+          "desc": "Expert handling of export procedures and documentation."
+        },
+        "transport": {
+          "title": "Mainline Transport",
+          "desc": "Scheduled air and sea routes for reliable delivery."
+        },
+        "distribution": {
+          "title": "Distribution",
+          "desc": "Quick sorting and handling at overseas hubs."
+        },
+        "delivery": {
+          "title": "Final Delivery",
+          "desc": "Door-to-door delivery with real-time tracking."
+        }
+      }
+    },
+    "footer": {
+      "description": "Reliable, efficient, and transparent cross-border solutions for businesses worldwide. Connect with our logistics experts today.",
+      "connect": "Connect with Us",
+      "wechat": "WeChat",
+      "telegram": "Telegram",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "track": "Track Order"
+    }
+  }
+}
