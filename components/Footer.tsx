@@ -9,7 +9,7 @@ export default function Footer() {
   const t = useTranslations('Index.footer')
   const [showWeChat, setShowWeChat] = useState(false)
 
-  const qrCodeUrl = "https://sc01.alicdn.com/kf/A9769464be5e34d1a97b7b874d8d7f40fN.png"
+  const qrCodeUrl = "/wechat-qr.png"
 
   return (
     <footer className="py-20 border-t border-border bg-background relative">
