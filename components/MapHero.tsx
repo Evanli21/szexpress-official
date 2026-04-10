@@ -9,6 +9,13 @@ export default function MapHero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+      {/* Hero Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+        style={{ backgroundImage: "url('/hero-bg.png')" }}
+      />
+      {/* Dark overlay to keep text readable */}
+      <div className="absolute inset-0 bg-black/60 z-0" />
       <div className="container mx-auto px-4 z-10 grid lg:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
