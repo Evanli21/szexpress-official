@@ -1,12 +1,15 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import { MessageCircle, Send, X } from 'lucide-react'
+import { MessageCircle, Send, X, BookOpen } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { useLocale } from 'next-intl'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
   const t = useTranslations('Index.footer')
+  const locale = useLocale()
   const [showWeChat, setShowWeChat] = useState(false)
 
   const qrCodeUrl = "/wechat-qr.png"
@@ -52,6 +55,10 @@ export default function Footer() {
             <a href="#" className="hover:text-white">{t('privacy')}</a>
             <a href="#" className="hover:text-white">{t('terms')}</a>
             <a href="#" className="hover:text-white">{t('track')}</a>
+            <Link href={`/${locale}/guide/china-vietnam`} className="flex items-center gap-1 hover:text-accent transition-colors">
+              <BookOpen className="w-4 h-4" />
+              中越物流指南
+            </Link>
           </div>
         </div>
       </div>
