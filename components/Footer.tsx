@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import { MessageCircle, Send, Phone, Mail, X } from 'lucide-react'
+import { MessageCircle, Send, X } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 
@@ -20,12 +20,7 @@ export default function Footer() {
             <p className="text-gray-400 max-w-sm mb-8">
               {t('description')}
             </p>
-            <div className="flex gap-4">
-              <a href="mailto:Business@szexpress.org" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
-                <Mail className="w-5 h-5" />
-                <span>Business@szexpress.org</span>
-              </a>
-            </div>
+
           </div>
           
           <div className="flex flex-col gap-6">
