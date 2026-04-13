@@ -81,19 +81,24 @@ export default function MapHero() {
               >
                 <X className="w-5 h-5" />
               </button>
-              <div className="text-accent text-4xl mb-6">💳</div>
-              <h2 className="text-2xl font-bold text-white mb-6">跨境收款</h2>
-              <div className="space-y-4 text-gray-200 text-lg leading-relaxed">
-                <p className="border-b border-accent/20 pb-4">
+              <div className="text-accent text-4xl mb-4">💳</div>
+              {/* 上方红框：标题 + 提示文字 */}
+              <div className="border border-accent/40 rounded-xl p-5 mb-6 text-left">
+                <h2 className="text-xl font-bold text-white mb-3">跨境收款</h2>
+                <p className="text-sm text-gray-300 leading-relaxed">
                   更透明的全球支付体验
                 </p>
-                <p className="border-b border-accent/20 pb-4">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   成本无忧
                 </p>
-                <p>
+                <p className="text-sm text-gray-300 leading-relaxed">
                   助你更快拓展全球业务
                 </p>
               </div>
+              {/* 下方红框：开通按钮 */}
+              <button className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base">
+                开通跨境收款
+              </button>
             </motion.div>
           </motion.div>
         )}
