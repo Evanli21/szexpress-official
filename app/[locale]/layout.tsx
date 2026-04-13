@@ -50,6 +50,8 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="mAVdgpjJ4ywcKS-7rQ2cK89bm5FN5GYq050ta0lSQ-Y" />
         {/* Schema.org Structured Data for GEO */}
         <script
           type="application/ld+json"
