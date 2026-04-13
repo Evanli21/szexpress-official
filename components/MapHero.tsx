@@ -1,11 +1,13 @@
 'use client'
 
-import { motion } from 'framer-motion'
-import { Globe } from 'lucide-react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Globe, X } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { useState } from 'react'
 
 export default function MapHero() {
   const t = useTranslations('Index.hero')
+  const [showPayModal, setShowPayModal] = useState(false)
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
@@ -45,9 +47,57 @@ export default function MapHero() {
             <button className="glass text-white px-8 py-4 rounded-md font-bold hover:bg-surface transition-colors">
               {t('track')}
             </button>
+            <button
+              onClick={() => setShowPayModal(true)}
+              className="bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors"
+            >
+              跨境收款
+            </button>
           </div>
         </motion.div>
       </div>
+
+      {/* 跨境收款弹窗 */}
+      <AnimatePresence>
+        {showPayModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm"
+            onClick={() => setShowPayModal(false)}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.85, y: 30 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.85, y: 30 }}
+              transition={{ duration: 0.3 }}
+              className="relative bg-[#0d1117] border border-accent/30 rounded-2xl p-10 max-w-md mx-4 text-center shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={() => setShowPayModal(false)}
+                className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+              <div className="text-accent text-4xl mb-6">💳</div>
+              <h2 className="text-2xl font-bold text-white mb-6">跨境收款</h2>
+              <div className="space-y-4 text-gray-200 text-lg leading-relaxed">
+                <p className="border-b border-accent/20 pb-4">
+                  更透明的全球支付体验
+                </p>
+                <p className="border-b border-accent/20 pb-4">
+                  成本无忧
+                </p>
+                <p>
+                  助你更快拓展全球业务
+                </p>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   )
 }
