@@ -28,7 +28,7 @@ export default function Home() {
             <a href="#" className="hover:text-accent transition-colors">{t('nav.services')}</a>
             <a href="#" className="hover:text-accent transition-colors">{t('nav.rates')}</a>
             <a href="#" className="hover:text-accent transition-colors">{t('nav.tracking')}</a>
-            <a href="#" className="hover:text-accent transition-colors">{t('nav.contact')}</a>
+            <a href="#contact" className="hover:text-accent transition-colors">{t('nav.contact')}</a>
           </nav>
           <div className="flex items-center gap-6">
             <LanguageSwitcher />

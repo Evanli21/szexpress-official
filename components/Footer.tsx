@@ -12,7 +12,7 @@ export default function Footer() {
   const qrCodeUrl = "/wechat-qr.png"
 
   return (
-    <footer className="py-20 border-t border-border bg-background relative">
+    <footer id="contact" className="py-20 border-t border-border bg-background relative">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="text-center md:text-left">

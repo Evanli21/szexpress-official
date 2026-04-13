@@ -36,9 +36,12 @@ export default function MapHero() {
             {t('description')}
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors">
+            <a 
+              href="#contact"
+              className="bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors"
+            >
               {t('quote')}
-            </button>
+            </a>
             <button className="glass text-white px-8 py-4 rounded-md font-bold hover:bg-surface transition-colors">
               {t('track')}
             </button>
