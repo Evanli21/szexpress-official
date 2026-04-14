@@ -57,7 +57,16 @@
       "telegram": "Telegram",
       "privacy": "개인정보 보호정책",
       "terms": "서비스 약관",
-      "track": "주문 조회"
+      "track": "주문 조회",
+      "guides": "배송 가이드",
+      "guidesModal": {
+        "title": "운송 노선 가이드",
+        "subtitle": "목적지를 선택하여 상세 운송 가이드를 확인하세요",
+        "routes": [
+          { "flag": "🇻🇳", "title": "중국 → 베트남", "desc": "선전에서 하노이/호치민, 항공 3-7일", "path": "china-vietnam" },
+          { "flag": "🇷🇺", "title": "중국 → 러시아", "desc": "선전에서 모스크바/상트페테르부르크, 철도 20-35일", "path": "china-russia" }
+        ]
+      }
     }
   }
 }

@@ -57,7 +57,16 @@
       "telegram": "电报",
       "privacy": "隐私政策",
       "terms": "服务条款",
-      "track": "订单追踪"
+      "track": "订单追踪",
+      "guides": "物流指南",
+      "guidesModal": {
+        "title": "物流专线指南",
+        "subtitle": "选择您的目的地，查看详细运输攻略",
+        "routes": [
+          { "flag": "🇻🇳", "title": "中越专线", "desc": "深圳→河内/胡志明市，空运3-7天", "path": "china-vietnam" },
+          { "flag": "🇷🇺", "title": "中俄专线", "desc": "深圳→莫斯科/圣彼得堡，铁路20-35天", "path": "china-russia" }
+        ]
+      }
     }
   }
 }

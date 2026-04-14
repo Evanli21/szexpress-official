@@ -57,7 +57,16 @@
       "telegram": "Telegram",
       "privacy": "Chính sách bảo mật",
       "terms": "Điều khoản dịch vụ",
-      "track": "Theo dõi đơn hàng"
+      "track": "Theo dõi đơn hàng",
+      "guides": "Hướng dẫn vận chuyển",
+      "guidesModal": {
+        "title": "Hướng dẫn tuyến vận chuyển",
+        "subtitle": "Chọn điểm đến để xem hướng dẫn vận chuyển chi tiết",
+        "routes": [
+          { "flag": "🇻🇳", "title": "Trung Quốc → Việt Nam", "desc": "Thâm Quyến đến Hà Nội/TP.HCM, hàng không 3-7 ngày", "path": "china-vietnam" },
+          { "flag": "🇷🇺", "title": "Trung Quốc → Nga", "desc": "Thâm Quyến đến Moscow/St. Petersburg, đường sắt 20-35 ngày", "path": "china-russia" }
+        ]
+      }
     }
   }
 }

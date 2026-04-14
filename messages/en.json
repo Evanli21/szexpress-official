@@ -57,7 +57,16 @@
       "telegram": "Telegram",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
-      "track": "Track Order"
+      "track": "Track Order",
+      "guides": "Shipping Guides",
+      "guidesModal": {
+        "title": "Shipping Route Guides",
+        "subtitle": "Choose your destination for a detailed freight guide",
+        "routes": [
+          { "flag": "🇻🇳", "title": "China → Vietnam", "desc": "Shenzhen to Hanoi/HCMC, air 3-7 days", "path": "china-vietnam" },
+          { "flag": "🇷🇺", "title": "China → Russia", "desc": "Shenzhen to Moscow/St. Petersburg, rail 20-35 days", "path": "china-russia" }
+        ]
+      }
     }
   }
 }
