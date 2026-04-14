@@ -51,7 +51,7 @@ export default function MapHero() {
               onClick={() => setShowPayModal(true)}
               className="bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors"
             >
-              跨境收款
+              {t('pay')}
             </button>
           </div>
         </motion.div>
@@ -82,22 +82,16 @@ export default function MapHero() {
                 <X className="w-5 h-5" />
               </button>
               <div className="text-accent text-4xl mb-4">💳</div>
-              {/* 上方红框：标题 + 提示文字 */}
+              {/* 上方：标题 + 提示文字 */}
               <div className="border border-accent/40 rounded-xl p-5 mb-6 text-left">
-                <h2 className="text-xl font-bold text-white mb-3">跨境收款</h2>
-                <p className="text-sm text-gray-300 leading-relaxed">
-                  更透明的全球支付体验
-                </p>
-                <p className="text-sm text-gray-300 leading-relaxed">
-                  成本无忧
-                </p>
-                <p className="text-sm text-gray-300 leading-relaxed">
-                  助你更快拓展全球业务
-                </p>
+                <h2 className="text-xl font-bold text-white mb-3">{t('payModal.title')}</h2>
+                <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line1')}</p>
+                <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line2')}</p>
+                <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line3')}</p>
               </div>
-              {/* 下方红框：开通按钮 */}
+              {/* 下方：开通按钮 */}
               <button className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base">
-                开通跨境收款
+                {t('payModal.cta')}
               </button>
             </motion.div>
           </motion.div>

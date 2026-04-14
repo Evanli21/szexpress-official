@@ -14,7 +14,15 @@
       "subtitle": "Global Special Line",
       "description": "Reliable, efficient, and transparent cross-border solutions for businesses worldwide. Air and sea freight directly to your doorstep.",
       "quote": "Get Quote Now",
-      "track": "Track Shipment"
+      "track": "Track Shipment",
+      "pay": "Cross-Border Payment",
+      "payModal": {
+        "title": "Cross-Border Payment",
+        "line1": "Transparent global payment experience",
+        "line2": "No hidden fees",
+        "line3": "Expand your global business faster",
+        "cta": "Activate Cross-Border Payment"
+      }
     },
     "process": {
       "title": "Logistics Process",

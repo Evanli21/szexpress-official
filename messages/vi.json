@@ -14,7 +14,15 @@
       "subtitle": "Tuyến vận tải chuyên biệt",
       "description": "Giải pháp xuyên biên giới đáng tin cậy, hiệu quả và minh bạch cho doanh nghiệp trên toàn thế giới. Vận chuyển hàng không và đường biển trực tiếp đến tận nơi.",
       "quote": "Nhận báo giá ngay",
-      "track": "Theo dõi đơn hàng"
+      "track": "Theo dõi đơn hàng",
+      "pay": "Thanh toán xuyên biên giới",
+      "payModal": {
+        "title": "Thanh toán xuyên biên giới",
+        "line1": "Trải nghiệm thanh toán toàn cầu minh bạch",
+        "line2": "Không phí ẩn",
+        "line3": "Mở rộng kinh doanh toàn cầu nhanh hơn",
+        "cta": "Kích hoạt thanh toán xuyên biên giới"
+      }
     },
     "process": {
       "title": "Quy trình Logistics",
