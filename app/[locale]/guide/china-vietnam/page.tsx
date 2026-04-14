@@ -37,6 +37,8 @@ const content = {
     },
     routes: {
       title: '主要运输路线',
+      origin: '出发地',
+      destination: '目的地',
       items: [
         { from: '深圳', to: '河内 (HAN)', air: '3-5天', sea: '15-20天' },
         { from: '深圳', to: '胡志明市 (SGN)', air: '4-7天', sea: '18-25天' },
@@ -117,6 +119,8 @@ const content = {
     },
     routes: {
       title: 'Key Shipping Routes',
+      origin: 'Origin',
+      destination: 'Destination',
       items: [
         { from: 'Shenzhen', to: 'Hanoi (HAN)', air: '3-5 days', sea: '15-20 days' },
         { from: 'Shenzhen', to: 'Ho Chi Minh City (SGN)', air: '4-7 days', sea: '18-25 days' },
@@ -164,6 +168,208 @@ const content = {
       wechat: 'WeChat Inquiry',
       telegram: 'Telegram Inquiry',
       email: 'Send Email'
+    }
+  }
+,
+  vi: {
+    back: 'Về trang chủ',
+    badge: 'Thâm Quyến → Việt Nam | Hướng dẫn vận chuyển',
+    title: 'Hướng dẫn vận chuyển Trung Quốc - Việt Nam',
+    subtitle: 'Hướng dẫn toàn diện nhất năm 2026 về vận chuyển hàng hóa từ Trung Quốc sang Việt Nam — bao gồm hàng không, đường biển, thời gian, chi phí và lưu ý thông quan.',
+    updated: 'Cập nhật lần cuối: Tháng 4/2026',
+    intro: {
+      title: 'Tuyến vận chuyển đặc biệt Trung-Việt là gì?',
+      body: 'Tuyến vận chuyển đặc biệt Trung-Việt là hành lang vận chuyển hàng hóa chuyên dụng từ Trung Quốc (chủ yếu từ Thâm Quyến) đến các thành phố lớn của Việt Nam (Hà Nội, TP. Hồ Chí Minh...). So với chuyển phát quốc tế thông thường, vận tải đặc biệt có giá minh bạch, thời gian ổn định, hỗ trợ cả hàng nhỏ lẻ và hàng lớn.'
+    },
+    modes: {
+      title: 'So sánh các phương thức vận chuyển',
+      air: {
+        title: 'Hàng không',
+        desc: 'Phù hợp cho hàng nhỏ, giá trị cao hoặc cần giao nhanh. Bay thẳng từ Thâm Quyến đến Hà Nội/TP.HCM. Thời gian: 3-7 ngày làm việc.',
+        pros: ['Nhanh nhất: 3-7 ngày làm việc', 'Phù hợp hàng TMĐT và mẫu', 'An toàn, tỷ lệ hư hỏng thấp'],
+        cons: ['Chi phí cao hơn', 'Giới hạn trọng lượng mỗi kiện'],
+        time: '3-7 ngày làm việc',
+        price: 'Tính theo trọng lượng'
+      },
+      sea: {
+        title: 'Đường biển',
+        desc: 'Phù hợp cho hàng khối lớn, hàng nặng. Nguyên container (FCL) hoặc hàng lẻ (LCL) — tiết kiệm chi phí nhất.',
+        pros: ['Chi phí thấp cho hàng lớn', 'Linh hoạt FCL/LCL', 'Không giới hạn trọng lượng'],
+        cons: ['Thời gian dài hơn: 15-25 ngày', 'Phụ thuộc thời tiết và cảng'],
+        time: '15-25 ngày',
+        price: 'Tính theo CBM/trọng lượng'
+      }
+    },
+    routes: {
+      title: 'Các tuyến vận chuyển chính',
+      origin: 'Điểm xuất phát',
+      destination: 'Điểm đến',
+      items: [
+        { from: 'Thâm Quyến', to: 'Hà Nội (HAN)', air: '3-5 ngày', sea: '15-20 ngày' },
+        { from: 'Thâm Quyến', to: 'TP. Hồ Chí Minh (SGN)', air: '4-7 ngày', sea: '18-25 ngày' },
+        { from: 'Thâm Quyến', to: 'Đà Nẵng (DAD)', air: '5-7 ngày', sea: '20-25 ngày' },
+      ]
+    },
+    customs: {
+      title: 'Lưu ý thông quan',
+      items: [
+        'Thuế nhập khẩu Việt Nam khác nhau đáng kể theo mã HS — xác nhận mức thuế áp dụng trước.',
+        'Hóa đơn thương mại và danh sách đóng gói là tài liệu bắt buộc cho tất cả lô hàng.',
+        'Một số hàng hóa cần giấy phép nhập khẩu Việt Nam (thực phẩm, mỹ phẩm, điện tử...).',
+        'Hải quan Việt Nam kiểm tra kỹ giá trị khai báo — luôn khai báo trung thực để tránh bị giữ hàng.',
+        'SZ Express hỗ trợ thủ tục thông quan chuyên nghiệp, giúp bạn chuẩn bị đầy đủ hồ sơ.'
+      ]
+    },
+    faq: {
+      title: 'Câu hỏi thường gặp',
+      items: [
+        { q: 'Gửi hàng từ Thâm Quyến sang Việt Nam mất bao lâu?', a: 'Hàng không: 3-7 ngày làm việc. Đường biển LCL: 15-25 ngày, FCL: 15-20 ngày. Thực tế có thể thay đổi do thông quan và ngày lễ.' },
+        { q: 'Có thể gửi hàng gì qua tuyến đặc biệt Trung-Việt?', a: 'Quần áo, điện tử, hàng tiêu dùng, phụ tùng máy móc, thực phẩm (cần giấy phép)... Hàng nguy hiểm và hàng giả không được chấp nhận.' },
+        { q: 'Chi phí vận chuyển được tính như thế nào?', a: 'Hàng không tính theo trọng lượng thực hoặc thể tích (lấy giá trị lớn hơn). Đường biển tính theo CBM hoặc trọng lượng. Liên hệ SZ Express để báo giá ngay.' },
+        { q: 'SZ Express có dịch vụ giao tận nơi không?', a: 'Có. Chúng tôi cung cấp dịch vụ từ cửa đến cửa: lấy hàng tại Thâm Quyến và giao đến kho hoặc địa chỉ tại Việt Nam.' },
+        { q: 'Làm thế nào để theo dõi lô hàng của tôi?', a: 'Sau khi gửi hàng, chúng tôi cung cấp mã vận đơn. Bạn có thể liên hệ qua WeChat hoặc Telegram để cập nhật tình trạng hàng hóa theo thời gian thực.' }
+      ]
+    },
+    cta: {
+      title: 'Sẵn sàng gửi hàng sang Việt Nam?',
+      desc: 'Liên hệ SZ Express để nhận báo giá miễn phí. Chuyên viên của chúng tôi sẽ phản hồi trong vòng 24 giờ.',
+      wechat: 'Tư vấn WeChat',
+      telegram: 'Tư vấn Telegram',
+      email: 'Gửi Email'
+    }
+  },
+  ko: {
+    back: '홈으로 돌아가기',
+    badge: '선전 → 베트남 | 배송 가이드',
+    title: '중국-베트남 화물 운송 가이드',
+    subtitle: '2026년 가장 완벽한 중국-베트남 화물 운송 가이드 — 항공, 해운, 운송 시간, 비용 및 통관 팁을 포함합니다.',
+    updated: '마지막 업데이트: 2026년 4월',
+    intro: {
+      title: '중국-베트남 특수 노선이란?',
+      body: '중국-베트남 특수 노선은 중국(주로 선전)에서 베트남 주요 도시(하노이, 호치민시 등)까지의 전용 화물 운송 통로입니다. 일반 국제 특급 배송에 비해 투명한 가격, 안정적인 운송 시간, 소량 및 대량 화물 지원이 특징입니다.'
+    },
+    modes: {
+      title: '운송 방법 비교',
+      air: {
+        title: '항공 화물',
+        desc: '소량, 고가 또는 긴급 화물에 적합합니다. 선전에서 하노이/호치민시까지 직항. 운송 기간: 3-7 영업일.',
+        pros: ['가장 빠름: 3-7 영업일', '전자상거래 소포 및 샘플에 적합', '높은 안전성, 낮은 손상률'],
+        cons: ['높은 비용', '개당 무게 제한'],
+        time: '3-7 영업일',
+        price: '무게 기준 요금'
+      },
+      sea: {
+        title: '해상 화물',
+        desc: '대량 및 중량 화물에 적합. FCL(전체 컨테이너) 또는 LCL(혼재 화물) 가능 — 가장 경제적인 옵션.',
+        pros: ['대량 화물에 저렴한 비용', '유연한 FCL/LCL 옵션', '무게 제한 없음'],
+        cons: ['긴 운송 시간: 15-25일', '날씨 및 항구 상황에 따라 달라질 수 있음'],
+        time: '15-25일',
+        price: 'CBM/무게 기준 요금'
+      }
+    },
+    routes: {
+      title: '주요 운송 노선',
+      origin: '출발지',
+      destination: '목적지',
+      items: [
+        { from: '선전', to: '하노이 (HAN)', air: '3-5일', sea: '15-20일' },
+        { from: '선전', to: '호치민시 (SGN)', air: '4-7일', sea: '18-25일' },
+        { from: '선전', to: '다낭 (DAD)', air: '5-7일', sea: '20-25일' },
+      ]
+    },
+    customs: {
+      title: '통관 주의사항',
+      items: [
+        '베트남 수입 관세는 HS 코드에 따라 크게 다릅니다 — 사전에 적용 세율을 확인하세요.',
+        '상업 송장과 포장 명세서는 모든 화물의 필수 서류입니다.',
+        '일부 상품은 베트남 수입 허가증이 필요합니다(식품, 화장품, 전자제품 등).',
+        '베트남 세관은 신고 가치를 엄격히 심사합니다 — 압류를 피하기 위해 정확하게 신고하세요.',
+        'SZ Express는 전문적인 통관 지원 서비스를 제공하여 필요한 서류 준비를 도와드립니다.'
+      ]
+    },
+    faq: {
+      title: '자주 묻는 질문',
+      items: [
+        { q: '선전에서 베트남까지 배송에 얼마나 걸리나요?', a: '항공 화물은 보통 3-7 영업일 걸립니다. LCL 해상 화물은 약 15-25일, FCL은 약 15-20일 걸립니다. 실제 시간은 통관 및 휴일에 따라 다를 수 있습니다.' },
+        { q: '중국-베트남 특수 노선으로 어떤 화물을 배송할 수 있나요?', a: '의류, 전자제품, 생활용품, 기계 부품, 식품(허가증 필요) 등을 배송할 수 있습니다. 위험물 및 위조품은 제외됩니다.' },
+        { q: '배송 비용은 어떻게 계산되나요?', a: '항공 화물은 실제 무게 또는 부피 무게(더 큰 값) 기준으로 요금이 부과됩니다. 해상 화물은 CBM 또는 무게 기준입니다. 즉시 견적을 받으려면 SZ Express에 문의하세요.' },
+        { q: 'SZ Express는 문 앞 배송 서비스를 제공하나요?', a: '네. 선전에서 픽업부터 베트남 창고 또는 문 앞까지 배송까지 완전한 원스톱 솔루션을 제공합니다.' },
+        { q: '화물을 어떻게 추적할 수 있나요?', a: '발송 후 운송장 번호를 제공합니다. WeChat 또는 Telegram을 통해 고객 서비스에 문의하여 실시간 화물 상태를 확인할 수 있습니다.' }
+      ]
+    },
+    cta: {
+      title: '베트남으로 배송할 준비가 되셨나요?',
+      desc: 'SZ Express에 연락하여 무료 견적을 받으세요. 물류 전문가가 24시간 내에 답변드립니다.',
+      wechat: 'WeChat 문의',
+      telegram: 'Telegram 문의',
+      email: '이메일 보내기'
+    }
+  },
+  ru: {
+    back: 'На главную',
+    badge: 'Шэньчжэнь → Вьетнам | Руководство по доставке',
+    title: 'Грузоперевозки из Китая во Вьетнам',
+    subtitle: 'Самое полное руководство 2026 года по доставке товаров из Китая во Вьетнам — авиадоставка, морской фрахт, сроки, стоимость и советы по таможенному оформлению.',
+    updated: 'Последнее обновление: апрель 2026',
+    intro: {
+      title: 'Что такое специальная линия Китай-Вьетнам?',
+      body: 'Специальная линия Китай-Вьетнам — это выделенный грузовой маршрут из Китая (преимущественно из Шэньчжэня) в крупные города Вьетнама (Ханой, Хошимин и др.). По сравнению со стандартной международной экспресс-доставкой, специальные линии предлагают прозрачные цены, стабильные сроки и поддержку как мелких, так и крупных отправлений.'
+    },
+    modes: {
+      title: 'Сравнение способов доставки',
+      air: {
+        title: 'Авиадоставка',
+        desc: 'Идеально для небольших, дорогостоящих или срочных грузов. Прямые рейсы из Шэньчжэня в Ханой/Хошимин. Срок: 3-7 рабочих дней.',
+        pros: ['Самый быстрый: 3-7 рабочих дней', 'Отлично для e-commerce посылок и образцов', 'Высокая безопасность, низкий риск повреждений'],
+        cons: ['Более высокая стоимость', 'Ограничения веса на единицу'],
+        time: '3-7 рабочих дней',
+        price: 'По весу'
+      },
+      sea: {
+        title: 'Морской фрахт',
+        desc: 'Идеально для крупных объёмов и тяжёлых грузов. FCL (полный контейнер) или LCL (сборный) — самый экономичный вариант.',
+        pros: ['Низкая стоимость для крупных грузов', 'Гибкие варианты FCL/LCL', 'Без ограничений по весу'],
+        cons: ['Длительный срок: 15-25 дней', 'Зависит от погоды и состояния портов'],
+        time: '15-25 дней',
+        price: 'По CBM/весу'
+      }
+    },
+    routes: {
+      title: 'Основные маршруты доставки',
+      origin: 'Откуда',
+      destination: 'Куда',
+      items: [
+        { from: 'Шэньчжэнь', to: 'Ханой (HAN)', air: '3-5 дней', sea: '15-20 дней' },
+        { from: 'Шэньчжэнь', to: 'Хошимин (SGN)', air: '4-7 дней', sea: '18-25 дней' },
+        { from: 'Шэньчжэнь', to: 'Дананг (DAD)', air: '5-7 дней', sea: '20-25 дней' },
+      ]
+    },
+    customs: {
+      title: 'Советы по таможенному оформлению',
+      items: [
+        'Импортные пошлины Вьетнама существенно различаются в зависимости от кода HS — заранее уточните применимую ставку.',
+        'Коммерческий инвойс и упаковочный лист — обязательные документы для всех отправлений.',
+        'Для некоторых товаров требуется вьетнамская импортная лицензия (продукты питания, косметика, электроника и др.).',
+        'Вьетнамская таможня тщательно проверяет задекларированную стоимость — всегда декларируйте точно, чтобы избежать задержания груза.',
+        'SZ Express оказывает профессиональную поддержку по таможенному оформлению и помогает подготовить все необходимые документы.'
+      ]
+    },
+    faq: {
+      title: 'Часто задаваемые вопросы',
+      items: [
+        { q: 'Сколько времени занимает доставка из Шэньчжэня во Вьетнам?', a: 'Авиадоставка: 3-7 рабочих дней. LCL морской фрахт: около 15-25 дней, FCL: около 15-20 дней. Фактические сроки могут варьироваться из-за таможни и праздников.' },
+        { q: 'Какие товары можно отправить по специальной линии Китай-Вьетнам?', a: 'Одежда, электроника, товары повседневного спроса, запчасти, продукты питания (с разрешением) и многое другое. Опасные грузы и контрафактная продукция исключены.' },
+        { q: 'Как рассчитывается стоимость доставки?', a: 'Авиафрахт рассчитывается по фактическому или объёмному весу (берётся большее значение). Морской фрахт — по CBM или весу. Свяжитесь с SZ Express для получения мгновенной цитаты.' },
+        { q: 'Предоставляет ли SZ Express услугу доставки «от двери до двери»?', a: 'Да. Мы обеспечиваем полный цикл: забор груза в Шэньчжэне и доставка на склад или по адресу во Вьетнаме — комплексный сервис «под ключ».' },
+        { q: 'Как отследить мою посылку?', a: 'После отправки мы предоставляем номер накладной. Вы можете связаться с нашей службой поддержки через WeChat или Telegram для получения актуальной информации о статусе груза.' }
+      ]
+    },
+    cta: {
+      title: 'Готовы отправить груз во Вьетнам?',
+      desc: 'Свяжитесь с SZ Express для получения бесплатного расчёта. Наши специалисты ответят в течение 24 часов.',
+      wechat: 'Написать в WeChat',
+      telegram: 'Написать в Telegram',
+      email: 'Отправить письмо'
     }
   }
 }
@@ -263,10 +469,10 @@ export default function ChinaVietnamGuidePage() {
             <table className="w-full text-sm">
               <thead className="bg-surface">
                 <tr>
-                  <th className="px-6 py-4 text-left text-gray-400">出发地 / Origin</th>
-                  <th className="px-6 py-4 text-left text-gray-400">目的地 / Destination</th>
-                  <th className="px-6 py-4 text-left text-accent"><Plane className="inline w-4 h-4 mr-1" />空运</th>
-                  <th className="px-6 py-4 text-left text-accent"><Ship className="inline w-4 h-4 mr-1" />海运</th>
+                  <th className="px-6 py-4 text-left text-gray-400">{t.routes.origin}</th>
+                  <th className="px-6 py-4 text-left text-gray-400">{t.routes.destination}</th>
+                  <th className="px-6 py-4 text-left text-accent"><Plane className="inline w-4 h-4 mr-1" />{t.modes.air.title}</th>
+                  <th className="px-6 py-4 text-left text-accent"><Ship className="inline w-4 h-4 mr-1" />{t.modes.sea.title}</th>
                 </tr>
               </thead>
               <tbody>
