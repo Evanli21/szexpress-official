@@ -18,19 +18,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   }))
 
-  // Guide pages
-  const guideLocales = ['zh', 'en', 'vi']
-  const guideEntries: MetadataRoute.Sitemap = guideLocales.map((locale) => ({
+  // China-Vietnam guide pages
+  const vnGuideLocales = ['zh', 'en', 'vi']
+  const vnGuideEntries: MetadataRoute.Sitemap = vnGuideLocales.map((locale) => ({
     url: `${baseUrl}/${locale}/guide/china-vietnam`,
     lastModified,
     changeFrequency: 'monthly',
     priority: 0.9,
     alternates: {
       languages: Object.fromEntries(
-        guideLocales.map((l) => [l, `${baseUrl}/${l}/guide/china-vietnam`])
+        vnGuideLocales.map((l) => [l, `${baseUrl}/${l}/guide/china-vietnam`])
       ),
     },
   }))
 
-  return [...homeEntries, ...guideEntries]
+  // China-Russia guide pages
+  const ruGuideLocales = ['zh', 'en', 'ru']
+  const ruGuideEntries: MetadataRoute.Sitemap = ruGuideLocales.map((locale) => ({
+    url: `${baseUrl}/${locale}/guide/china-russia`,
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.9,
+    alternates: {
+      languages: Object.fromEntries(
+        ruGuideLocales.map((l) => [l, `${baseUrl}/${l}/guide/china-russia`])
+      ),
+    },
+  }))
+
+  return [...homeEntries, ...vnGuideEntries, ...ruGuideEntries]
 }
