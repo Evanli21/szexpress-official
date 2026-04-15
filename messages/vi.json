@@ -25,8 +25,9 @@
       "payModal": {
         "title": "Thanh toán xuyên biên giới",
         "line1": "Trải nghiệm thanh toán toàn cầu minh bạch",
-        "line2": "Không phí ẩn",
-        "line3": "Mở rộng kinh doanh toàn cầu nhanh hơn",
+        "line2": "Không phí ẩn — mở rộng kinh doanh toàn cầu nhanh hơn",
+        "line3": "Rút tiền không giới hạn, linh hoạt vốn lưu động",
+        "line4": "Hỗ trợ giao dịch trực tuyến 7×24 giờ",
         "cta": "Kích hoạt thanh toán xuyên biên giới"
       },
       "agent": "Triển khai AI Agent",

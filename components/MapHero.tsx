@@ -144,6 +144,7 @@ export default function MapHero() {
                 <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line1')}</p>
                 <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line2')}</p>
                 <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line3')}</p>
+                <p className="text-sm text-gray-300 leading-relaxed">{t('payModal.line4')}</p>
               </div>
               {/* 下方：开通按钮 */}
               <button className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base">
