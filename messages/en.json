@@ -22,6 +22,12 @@
         "line2": "No hidden fees",
         "line3": "Expand your global business faster",
         "cta": "Activate Cross-Border Payment"
+      },
+      "agent": "Deploy AI Agent",
+      "agentModal": {
+        "title": "Deploy Your AI Agent",
+        "desc": "Deploy an AI Agent in one click — make your trade business easier, business development more efficient, and communication more professional.",
+        "cta": "Deploy Now"
       }
     },
     "process": {

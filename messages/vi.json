@@ -22,6 +22,12 @@
         "line2": "Không phí ẩn",
         "line3": "Mở rộng kinh doanh toàn cầu nhanh hơn",
         "cta": "Kích hoạt thanh toán xuyên biên giới"
+      },
+      "agent": "Triển khai AI Agent",
+      "agentModal": {
+        "title": "Triển khai AI Agent ngay",
+        "desc": "Triển khai AI Agent chỉ với một cú nhấp — giúp kinh doanh ngoại thương dễ dàng hơn, phát triển khách hàng hiệu quả hơn, giao tiếp chuyên nghiệp hơn.",
+        "cta": "Triển khai ngay"
       }
     },
     "process": {

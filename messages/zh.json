@@ -22,6 +22,12 @@
         "line2": "成本无忧",
         "line3": "助你更快拓展全球业务",
         "cta": "开通跨境收款"
+      },
+      "agent": "一键部署 Agent",
+      "agentModal": {
+        "title": "一键部署 Agent",
+        "desc": "一键部署 Agent，让您更轻松做外贸、生意开发更高效、沟通更专业。",
+        "cta": "立即部署"
       }
     },
     "process": {
