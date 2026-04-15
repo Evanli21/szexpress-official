@@ -33,7 +33,8 @@
       "agentModal": {
         "title": "一键部署 Agent",
         "desc": "一键部署 Agent，让您更轻松做外贸、生意开发更高效、沟通更专业。",
-        "cta": "立即部署"
+        "ctaTencent": "腾讯云部署",
+        "ctaAliyun": "阿里云部署"
       }
     },
     "process": {

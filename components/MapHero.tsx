@@ -92,9 +92,24 @@ export default function MapHero() {
                 <h2 className="text-xl font-bold text-white mb-3">{t('agentModal.title')}</h2>
                 <p className="text-sm text-gray-300 leading-relaxed">{t('agentModal.desc')}</p>
               </div>
-              <button className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base">
-                {t('agentModal.cta')}
-              </button>
+              <div className="flex flex-col gap-3">
+                <a
+                  href="https://curl.qcloud.com/ZFlxHr5H"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base flex items-center justify-center gap-2"
+                >
+                  <span>☁️</span>{t('agentModal.ctaTencent')}
+                </a>
+                <a
+                  href="https://www.aliyun.com/activity/ecs/clawdbot?userCode=o9z21wka"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-accent text-black font-bold py-4 rounded-xl hover:bg-white transition-colors text-base flex items-center justify-center gap-2"
+                >
+                  <span>🟠</span>{t('agentModal.ctaAliyun')}
+                </a>
+              </div>
             </motion.div>
           </motion.div>
         )}

@@ -33,7 +33,8 @@
       "agentModal": {
         "title": "Deploy Your AI Agent",
         "desc": "Deploy an AI Agent in one click — make your trade business easier, business development more efficient, and communication more professional.",
-        "cta": "Deploy Now"
+        "ctaTencent": "Deploy on Tencent Cloud",
+        "ctaAliyun": "Deploy on Alibaba Cloud"
       }
     },
     "process": {

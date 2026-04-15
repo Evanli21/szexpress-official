@@ -33,7 +33,8 @@
       "agentModal": {
         "title": "Triển khai AI Agent ngay",
         "desc": "Triển khai AI Agent chỉ với một cú nhấp — giúp kinh doanh ngoại thương dễ dàng hơn, phát triển khách hàng hiệu quả hơn, giao tiếp chuyên nghiệp hơn.",
-        "cta": "Triển khai ngay"
+        "ctaTencent": "Triển khai Tencent Cloud",
+        "ctaAliyun": "Triển khai Alibaba Cloud"
       }
     },
     "process": {
