@@ -56,9 +56,9 @@ export default function MapHero() {
             </button>
             <button
               onClick={() => setShowAgentModal(true)}
-              className="flex items-center gap-2 glass text-white px-8 py-4 rounded-md font-bold hover:bg-surface transition-colors border border-accent/50"
+              className="flex items-center gap-2 bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors"
             >
-              <Bot className="w-5 h-5 text-accent" />
+              <Bot className="w-5 h-5" />
               {t('agent')}
             </button>
           </div>
