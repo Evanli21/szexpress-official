@@ -6,7 +6,13 @@
       "services": "服务",
       "rates": "运费",
       "tracking": "追踪",
-      "contact": "联系"
+      "contact": "联系",
+      "servicesMenu": {
+        "logistics": "物流专线",
+        "payment": "跨境收款",
+        "agent": "一键云部署 AI Agent",
+        "token": "Token 中转（个人/企业）"
+      }
     },
     "hero": {
       "badge": "全球物流专家",

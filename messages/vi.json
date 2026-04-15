@@ -6,7 +6,13 @@
       "services": "Dịch vụ",
       "rates": "Cước phí",
       "tracking": "Theo dõi",
-      "contact": "Liên hệ"
+      "contact": "Liên hệ",
+      "servicesMenu": {
+        "logistics": "Tuyến vận chuyển",
+        "payment": "Thanh toán quốc tế",
+        "agent": "Triển khai AI Agent một chạm",
+        "token": "Token Relay (Cá nhân/Doanh nghiệp)"
+      }
     },
     "hero": {
       "badge": "Chuyên gia logistics toàn cầu",

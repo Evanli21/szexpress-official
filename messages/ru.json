@@ -6,7 +6,13 @@
       "services": "Услуги",
       "rates": "Тарифы",
       "tracking": "Отслеживание",
-      "contact": "Контакты"
+      "contact": "Контакты",
+      "servicesMenu": {
+        "logistics": "Маршруты доставки",
+        "payment": "Международные платежи",
+        "agent": "AI Agent в один клик",
+        "token": "Token Relay (Личный/Корпоративный)"
+      }
     },
     "hero": {
       "badge": "Глобальный эксперт в логистике",

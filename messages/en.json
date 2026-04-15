@@ -6,7 +6,13 @@
       "services": "Services",
       "rates": "Rates",
       "tracking": "Tracking",
-      "contact": "Contact"
+      "contact": "Contact",
+      "servicesMenu": {
+        "logistics": "Logistics Routes",
+        "payment": "Cross-Border Payment",
+        "agent": "One-Click Cloud AI Agent",
+        "token": "Token Relay (Personal/Enterprise)"
+      }
     },
     "hero": {
       "badge": "Global Logistics Expert",
