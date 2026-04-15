@@ -45,9 +45,7 @@ export default function MapHero() {
             >
               {t('quote')}
             </a>
-            <button className="glass text-white px-8 py-4 rounded-md font-bold hover:bg-surface transition-colors">
-              {t('track')}
-            </button>
+            {/* 追踪查询按钮暂时隐藏 */}
             <button
               onClick={() => setShowPayModal(true)}
               className="bg-accent text-black px-8 py-4 rounded-md font-bold hover:bg-white transition-colors"
