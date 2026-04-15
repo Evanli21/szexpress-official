@@ -31,8 +31,6 @@ export default function MapHero() {
             <span>{t('badge')}</span>
           </div>
           <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="text-white">{t('title')}</span>
-            <br />
             <span className="text-accent italic">{t('subtitle')}</span>
           </h1>
           <p className="text-xl text-gray-200 mb-10 max-w-lg">
